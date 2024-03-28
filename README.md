@@ -14,13 +14,9 @@ The objective of this project is to estimate the hourly utilizations of a day ba
 6. **Examples of Poorly Estimated Cases**: Illustrative examples showcasing instances where estimations were inaccurate and potential reasons behind them.
 7. **Conclusion**: Summary of findings and conclusions drawn from the analysis.
 
-## Delivery
-- **Report**: The report will be provided in PDF format, covering all aspects of the project.
-- **Jupyter Notebooks**: Notebook/s used for the analysis will be provided, organized similarly to the structure of the report.
-
 ---
 
-**Introduction**
+## 1. Introduction
 
 Solar energy, with its immense potential for sustainability and renewable power generation, has garnered increasing attention as a viable alternative to traditional energy sources. In the pursuit of harnessing solar energy effectively, understanding and predicting solar irradiation—the amount of solar energy received per unit area—play crucial roles. Solar irradiation serves as a primary determinant of solar energy utilization, influencing various applications such as power generation, agriculture, and environmental management.
 
