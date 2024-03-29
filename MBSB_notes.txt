@@ -1,0 +1,16 @@
+Dudas:
+
+- ¿Qué es la utilización y cómo se calcula? En sus slides pone que se calcula a partir de la generación foltovoltaica,
+y la potencia fotovoltaica, ¿cómo se relacionan estos conceptos con la irradiación?
+
+- Por otra parte, Nat tiene apuntado que lo que se quiere obtener es: para el día X en la franja Y, ¿cuál es el
+valor de la utilización que hubo? Luego tengo que tener en cuenta la hora en mi estimación, ¿no?
+
+    - ¿Hago un modelo para cada UTILXX? Inicialmente he hecho esto, solamente considerando la irradiación en ese 
+    mismo instante y la fecha. Quizás podría meter la irradiación en instantes anteriores o posteriores, ¿no?
+
+    - Pensando en cómo va a evaluar Eugenio la performance de nuestro modelo, es decir usando un conjunto de 
+    validación, quizás tiene más sentido meter todas las irradiaciones. Voy a hacer una prueba y comparar los resultados. 
+
+- A la hora de estimar la utilización, ¿quiere que usemos la utilización en los instantes previos como input? 
+¿o solo que nos basemos en la irradiación? Creo que solo la irradiación. 

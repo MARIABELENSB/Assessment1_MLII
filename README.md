@@ -24,16 +24,15 @@ In this project, we focus on forecasting solar energy utilization in a specific 
 
 **Dataset Description**
 
-The dataset consists of the following columns:
+The datasets consists of the following columns:
 
 - **FECHA**: Timestamps representing the date and time of each observation.
 - **IRRADH00** to **IRRADH21**: Solar irradiation measurements at three-hour intervals throughout the day.
+- **UTILH00** to **UTILH21**: Solar energy utilization calculations at three-hour intervals throughout the day.
 - **ANNO**: Year component extracted from the timestamps.
 - **MES**: Month component extracted from the timestamps.
 - **DIA**: Day component extracted from the timestamps.
 - **DIASEM**: Day of the week extracted from the timestamps.
-
-These columns collectively provide comprehensive temporal coverage and solar irradiation data, essential for modeling and forecasting solar energy utilization.
 
 **Objective**
 
@@ -44,3 +43,7 @@ Our primary objective is to develop predictive models for solar energy utilizati
 To achieve our objective, we will employ ensemble learning methods, which combine multiple base models to enhance predictive performance and robustness. Ensemble methods, such as Random Forests, Gradient Boosting, and Stacking, are well-suited for handling complex relationships and capturing nonlinearities present in solar energy utilization patterns.
 
 By leveraging the temporal dynamics encoded in the dataset and the predictive power of ensemble learning, we aim to build accurate and reliable models for forecasting solar energy utilization. These models have the potential to inform decision-making processes, optimize energy management strategies, and contribute to the sustainable utilization of solar resources.
+
+---
+
+## 2. Exploratory Data Analysis (EDA)
