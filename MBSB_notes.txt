@@ -11,6 +11,16 @@ valor de la utilización que hubo? Luego tengo que tener en cuenta la hora en mi
 
     - Pensando en cómo va a evaluar Eugenio la performance de nuestro modelo, es decir usando un conjunto de 
     validación, quizás tiene más sentido meter todas las irradiaciones. Voy a hacer una prueba y comparar los resultados. 
+    Son muy similares, me voy a quedae entonces con todos los inputs pues psrece hacer cierta correlación,
 
 - A la hora de estimar la utilización, ¿quiere que usemos la utilización en los instantes previos como input? 
 ¿o solo que nos basemos en la irradiación? Creo que solo la irradiación. 
+
+-------------------
+
+- Una vez entrenados los modelos (he hecho un modelo para cada hora, ¿tiene sentido esto? ¿sería mejor poner la
+hora como input?), veo que los residuos tienen cierto comportamiento lineal. ¿Cómo se hace para corregir
+eso? Recuerdo de meter no linealidades, pero cuando el comportamiento sigue siendo lineal, ¿qué hago?
+
+- Por otra parte, creo que es interesante mencionar en el report que las variables que son más significativas (aunque
+no siempre), son las de la misma hora.
