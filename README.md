@@ -1,4 +1,4 @@
-# Assessment 1 - Ensamble Learning - Machine Learning II
+# Assessment 1 - Ensemble Learning - Machine Learning II
 
 # Estimating Hourly Utilization from Available Variables
 
