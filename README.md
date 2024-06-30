@@ -45,5 +45,3 @@ To achieve our objective, we will employ ensemble learning methods, which combin
 By leveraging the temporal dynamics encoded in the dataset and the predictive power of ensemble learning, we aim to build accurate and reliable models for forecasting solar energy utilization. These models have the potential to inform decision-making processes, optimize energy management strategies, and contribute to the sustainable utilization of solar resources.
 
 ---
-
-## 2. Exploratory Data Analysis (EDA)
